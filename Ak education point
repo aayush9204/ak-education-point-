@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #004080;
+  color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background: #cce0ff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.jobs, .materials {
+  padding: 30px 20px;
+  background: white;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.job-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.job-card {
+  background: #e6f2ff;
+  padding: 15px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.materials ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background: #004080;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AK Education Point</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">AK Education Point</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Study Materials</a></li>
+        <li><a href="#">Admit Cards</a></li>
+        <li><a href="#">Results</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to AK Education Point</h1>
+    <p>Your one-stop platform for Sarkari Jobs, Study Materials & More</p>
+  </section>
+
+  <section class="jobs">
+    <h2>Latest Job Updates</h2>
+    <div class="job-list">
+      <div class="job-card">
+        <h3>SSC GD Constable 2025</h3>
+        <p>Apply Online – Last Date: 15 Sept 2025</p>
+      </div>
+      <div class="job-card">
+        <h3>Railway Group D Recruitment</h3>
+        <p>Application Open – Last Date: 25 Sept 2025</p>
+      </div>
+      <div class="job-card">
+        <h3>Bihar Teacher Bharti 2025</h3>
+        <p>Online Form Available – Last Date: 30 Sept 2025</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="materials">
+    <h2>Free Study Materials</h2>
+    <ul>
+      <li><a href="#">General Science PDF</a></li>
+      <li><a href="#">Maths Practice Set</a></li>
+      <li><a href="#">Current Affairs – August 2025</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AK Education Point. All rights reserved.</p>
+    <p>Contact: akeducation@example.com</p>
+  </footer>
+
+</body>
+</html>
